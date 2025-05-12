@@ -12,6 +12,18 @@
             <h2>Chapters</h2>
             <ul id="chapter-list"></ul>
             <button id="add-chapter">+ Add Chapter</button>
+            <div id="story-prompts">
+                <h3>Story Prompt</h3>
+                <div id="prompt-text">Click below for inspiration!</div>
+                <button id="new-prompt">New Prompt</button>
+            </div>
+            <div id="story-structure">
+                <h3>Story Structure</h3>
+                <label>Setting:<textarea id="setting-note" placeholder="Describe the setting..."></textarea></label>
+                <label>Characters:<textarea id="characters-note" placeholder="List main characters..."></textarea></label>
+                <label>Conflict:<textarea id="conflict-note" placeholder="What's the main conflict?"></textarea></label>
+                <label>Resolution:<textarea id="resolution-note" placeholder="How does it resolve?"></textarea></label>
+            </div>
         </aside>
         <main id="main">
             <header id="toolbar">
@@ -20,6 +32,7 @@
             </header>
             <section id="editor-section">
                 <textarea id="editor" placeholder="Start writing your story..."></textarea>
+                <div id="motivation"></div>
             </section>
         </main>
     </div>

@@ -97,3 +97,61 @@ body {
     box-sizing: border-box;
     font-family: 'Fira Mono', 'Consolas', monospace;
 }
+#story-prompts, #story-structure {
+    background: #393e6a;
+    margin-top: 18px;
+    padding: 12px;
+    border-radius: 6px;
+}
+#story-prompts h3, #story-structure h3 {
+    margin-top: 0;
+    font-size: 1.1em;
+    color: #eebbc3;
+}
+#prompt-text {
+    background: #232946;
+    color: #eebbc3;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    min-height: 40px;
+}
+#new-prompt {
+    background: #eebbc3;
+    color: #232946;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.95em;
+    margin-bottom: 8px;
+}
+#story-structure label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 0.98em;
+}
+#story-structure textarea {
+    width: 100%;
+    min-height: 32px;
+    margin-top: 4px;
+    border-radius: 4px;
+    border: 1px solid #eebbc3;
+    padding: 6px;
+    font-size: 0.98em;
+    background: #232946;
+    color: #eebbc3;
+    resize: vertical;
+}
+#motivation {
+    margin-top: 16px;
+    background: #eebbc3;
+    color: #232946;
+    padding: 10px;
+    border-radius: 6px;
+    font-style: italic;
+    font-size: 1em;
+    min-height: 28px;
+    text-align: center;
+}
