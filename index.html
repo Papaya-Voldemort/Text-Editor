@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <aside id="sidebar">
+            <h2>Chapters</h2>
+            <ul id="chapter-list"></ul>
+            <button id="add-chapter">+ Add Chapter</button>
+        </aside>
+        <main id="main">
+            <header id="toolbar">
+                <input id="chapter-title" placeholder="Chapter Title" />
+                <button id="save-btn">Save</button>
+            </header>
+            <section id="editor-section">
+                <textarea id="editor" placeholder="Start writing your story..."></textarea>
+            </section>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
